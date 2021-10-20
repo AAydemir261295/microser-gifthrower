@@ -11,7 +11,7 @@
 //Для запуска с помощью докера понадобится Docker desktop
 //После клона репозитория, открываем CMD заходим в директорию нашего микросервиса
 //открываем gradlew.bat
-//прописываем gradlew clean build 
+//прописываем gradlew clean build
 //после открываем Docker в cmd (docker desktop при этом должен быть включенным)
 //прописываем docker build -t throwagifplease:latest .  //точка в конце обязательна! 
 //далее вводим в CMD docker run -d -p 8888:8080 throwagifplease:latest
